@@ -49,6 +49,9 @@ public class Carrera {
 	}
 	
 	public void mostrarContenido(){
-		System.out.println("Distancia de carrera: " + getDistancia() + "km" + "\nRonda: " + getRonda() + "\nAño: " + getFecha() + "Calle: " +	);
+		System.out.println("Distancia de carrera: " + getDistancia() + "km" + "\nRonda: " + getRonda() + "\nAño: " + getFecha() + "\nCalle: ");
+		for (Calle echo : calles) {
+			System.out.println(echo);
+		}
 	}
 }

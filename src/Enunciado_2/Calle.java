@@ -33,4 +33,5 @@ public class Calle {
 	public void setTiempo(double entrada) {
 		this.tiempo = entrada;
 	}
+
 }
