@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 
 /**
- * @author Adri Garcia y Hernan Gonzalez.
+ * @author Adri Garcia y Hernan Gonzalez
  *
  */
 public class Libro {

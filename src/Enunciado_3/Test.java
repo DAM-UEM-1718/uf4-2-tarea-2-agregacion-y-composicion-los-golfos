@@ -1,9 +1,14 @@
 package Enunciado_3;
 
+
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Libro Quijote = new Libro ("El Quijote", 1111, "Cervantes", 1615);
+		
+		Quijote.añadirPag("En un lugar de la mancha...", 1);
+		Quijote.añadirPag("...De cuyo nombre no quiero acordarme...", 2);
 
 	}
 
