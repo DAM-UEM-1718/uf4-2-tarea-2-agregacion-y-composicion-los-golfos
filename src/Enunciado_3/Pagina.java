@@ -1,12 +1,18 @@
 package Enunciado_3;
 
+/**
+ * @author Adri Garcia y Hernan Gonzalez.
+ *
+ */
+
 public class Pagina {
 
 	private String contenido;
 	private int numero;
 	
-	public void Pagina(String content, int numero) {
-		
+	public Pagina(String content, int numero) {
+		contenido=content;
+		this.numero=numero;		
 	}
 
 	public String getContenido() {
