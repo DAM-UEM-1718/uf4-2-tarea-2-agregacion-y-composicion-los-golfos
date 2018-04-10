@@ -13,7 +13,7 @@ public class Ordenador {
 	
 	@Override
 	public String toString() {
-		return "Ordenador [" + cpu + ", " + pantalla + ", " + raton + ", " + teclado + "]";
+		return "Ordenador \n" + cpu.toString() + "\n" + pantalla.toString() +"\n" + raton.toString() +"\n" + teclado.toString() + "";
 	}
 	public Ordenador (CPU cpu, Pantalla pantalla, Raton raton, Teclado teclado) {
 		this.cpu = cpu;
